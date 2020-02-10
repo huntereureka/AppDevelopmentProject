@@ -42,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,7 +54,7 @@
       <recent name="C:\Users\HuiFeng\Desktop\AppDevelopmentProject\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
+  <component name="RunManager" selected="Python.app">
     <configuration name="User" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +69,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/User.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,21 +164,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="flask" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="flask" type="Python.FlaskServer">
       <module name="flask" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -175,7 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test main" />
@@ -267,26 +273,30 @@
     </state>
     <state x="-1733" y="124" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1576500672903" />
     <state x="234" y="155" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1578913566648" />
-    <state width="1877" height="187" key="GridCell.Tab.0.bottom" timestamp="1579077590923">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1196" height="186" key="GridCell.Tab.0.bottom" timestamp="1581320785284">
+      <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1578386967141" />
     <state width="1877" height="187" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579077590923" />
-    <state width="1877" height="187" key="GridCell.Tab.0.center" timestamp="1579077590923">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1196" height="186" key="GridCell.Tab.0.bottom/0.0.1217.720@0.0.1217.720" timestamp="1581320785284" />
+    <state width="1196" height="186" key="GridCell.Tab.0.center" timestamp="1581320785284">
+      <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1578386967140" />
     <state width="1877" height="187" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579077590923" />
-    <state width="1877" height="187" key="GridCell.Tab.0.left" timestamp="1579077590923">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1196" height="186" key="GridCell.Tab.0.center/0.0.1217.720@0.0.1217.720" timestamp="1581320785284" />
+    <state width="1196" height="186" key="GridCell.Tab.0.left" timestamp="1581320785284">
+      <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1578386967140" />
     <state width="1877" height="187" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579077590923" />
-    <state width="1877" height="187" key="GridCell.Tab.0.right" timestamp="1579077590923">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1196" height="186" key="GridCell.Tab.0.left/0.0.1217.720@0.0.1217.720" timestamp="1581320785284" />
+    <state width="1196" height="186" key="GridCell.Tab.0.right" timestamp="1581320785284">
+      <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state width="1493" height="191" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1578386967141" />
     <state width="1877" height="187" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579077590923" />
+    <state width="1196" height="186" key="GridCell.Tab.0.right/0.0.1217.720@0.0.1217.720" timestamp="1581320785284" />
     <state width="1877" height="444" key="GridCell.Tab.1.bottom" timestamp="1579014794845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,10 +313,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="444" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579014794845" />
-    <state x="-1643" y="54" key="SettingsEditor" timestamp="1576500696337">
-      <screen x="-1920" y="0" width="1536" height="832" />
+    <state x="91" y="0" key="SettingsEditor" timestamp="1581320488842">
+      <screen x="0" y="0" width="1217" height="720" />
     </state>
     <state x="-1643" y="54" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1576500696337" />
+    <state x="91" y="0" key="SettingsEditor/0.0.1217.720@0.0.1217.720" timestamp="1581320488842" />
     <state x="184" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1579060958543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,16 +330,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579060995133" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$main.coverage" NAME="main Coverage Results" MODIFIED="1578919168720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$test_main.coverage" NAME="test main Coverage Results" MODIFIED="1578918551996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$test.coverage" NAME="test Coverage Results" MODIFIED="1579855629401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576503986352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$storageManager.coverage" NAME="storageManager Coverage Results" MODIFIED="1578416087686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$Forms.coverage" NAME="Forms Coverage Results" MODIFIED="1578381208108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$User.coverage" NAME="User Coverage Results" MODIFIED="1578824994780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1579855782284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppDevelopmentProject$StorageManager.coverage" NAME="StorageManager Coverage Results" MODIFIED="1578818700377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
