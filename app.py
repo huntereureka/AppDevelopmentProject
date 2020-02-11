@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, session
 
+import shelve, User1
 import User
 import main
 import Product
@@ -401,6 +402,26 @@ def cart():
     #     product_object = {}
     return render_template("userCart.html", item=u_cart, total_cost=total_cost)
 
+
+@app.route('/createUser', methods=['GET', 'POST'])
+def createUser():
+    createUserForm = CreateUserForm(request.form)
+    if request.method == 'POST' and createUserForm.validate():
+        usersDict = {}
+        db = shelve.open('storage.db', 'c')
+
+        try:
+            usersDict = db['Feedback']
+        except:
+            print("Error in retrieving Users from storage.db.")
+
+        user = User1.User(createUserForm.firstName.data, createUserForm.lastName.data, createUserForm.gender.data, createUserForm.membership.data, createUserForm.remarks.data)
+        usersDict[user.get_userID()] = user
+        db['Feedback'] = usersDict
+
+        db.close()
+        return redirect(url_for('retrieveUsers'))
+    return render_template('createUser.html', form=createUserForm)
 # Checkout options
 # JH
 @app.route("/checkoutoptions")
